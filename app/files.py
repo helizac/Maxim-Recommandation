@@ -722,6 +722,10 @@ Dünyadaki hiçbir çıkar, verdiğiniz sözü tutmamaya veya kendinize olan say
 
 Bizi biçimlendiren hayatımızdaki olaylar değil, bu olaylar karşısında geliştirdiğimiz inançlardır.
 
+Tabi siz anneleri tarafından size emanet edilen çocuklara her bakımdan yetersiz gördüğünüz bir kadının annelik etmesine şiddetle karşısınız ama.
+
+Oysa herkes öldürür sevdiğini Kulak verin bu dediklerime, Kimi bir bakışıyla yapar bunu, Kimi dalkavukça sözlerle, Korkaklar öpücük ile öldürür, Yürekliler kılıç darbeleriyle Kimi gençken öldürür sevdiğini Kimi yaşlı iken Şehvetli ellerle boğar kimi Kimi altından ellerle Merhametli kişi bıçak kullanır Çünkü bıçakla ölen çabuk soğur.
+
 """
 
 hide_streamlit_style = """
