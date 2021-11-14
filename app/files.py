@@ -726,6 +726,8 @@ Tabi siz anneleri tarafından size emanet edilen çocuklara her bakımdan yeters
 
 Oysa herkes öldürür sevdiğini Kulak verin bu dediklerime, Kimi bir bakışıyla yapar bunu, Kimi dalkavukça sözlerle, Korkaklar öpücük ile öldürür, Yürekliler kılıç darbeleriyle Kimi gençken öldürür sevdiğini Kimi yaşlı iken Şehvetli ellerle boğar kimi Kimi altından ellerle Merhametli kişi bıçak kullanır Çünkü bıçakla ölen çabuk soğur.
 
+Sakın! Sakın tek bir kelime daha edeyim deme. sakin tek bir yalan daha söyleme. niye biliyor musun? çünkü inanırım. onca şeyden sonra şimdi tek bir cümle et, gözlerime bakıp beni sevdiğini söyle, gerçek olmadığını bal gibi bilirim ama yinede sana inanırım. o yüzden tek bir an bile beni gerçekten sevdiysen sakın...
+
 """
 
 hide_streamlit_style = """
