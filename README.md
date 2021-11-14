@@ -119,7 +119,7 @@ When we run the whole program and enter an input, we can get the desired respons
 You can see the final version of the website in Image-1.
 
 ![Image-1](https://user-images.githubusercontent.com/54884571/141698154-5e60bcf6-bce5-4de4-95ae-d66ba43bed96.png)
-
+> [Image-1]
 And the result of a few input attempts in Image-2.
   
 ![Image-2](https://user-images.githubusercontent.com/54884571/141697938-9df41c57-2814-4139-9006-e8d251af64a8.png)
