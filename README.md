@@ -115,3 +115,4 @@ st.sidebar.write(falci.recommendation_wv(falci.rp_string(str(user_input).lower()
 ```
 
 ![](https://user-images.githubusercontent.com/54884571/141697858-c42408de-2756-4fc6-8578-88c49e7255e0.png)
+![](https://user-images.githubusercontent.com/54884571/141697938-9df41c57-2814-4139-9006-e8d251af64a8.png)
