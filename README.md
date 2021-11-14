@@ -114,4 +114,3 @@ user_input = st.sidebar.text_input("Pembe abla, ne söyleyebilirsin hakkımda:",
 st.sidebar.write(falci.recommendation_wv(falci.rp_string(str(user_input).lower()), "app/turkish_stop_words.txt"))
 ```
 
-
