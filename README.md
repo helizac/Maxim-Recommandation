@@ -47,7 +47,7 @@ Use pip3 or pip for install packages.
 pip install gensim        #For use trained models
 pip install numpy         #For using matrixs easily
 pip install pandas        #For making dataframe understandable and easy to change
-pip install scikit_learn  # -> from sklearn.metrics.pairwise import cosine_similarity -> https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html
+pip install scikit_learn  # -> https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html
 pip install streamlit     #For making website
 ```
 
