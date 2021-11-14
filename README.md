@@ -89,5 +89,29 @@ class falci:
         recommendation_wv(answer, stop_words=None) pulls suggested answer from dataframe using construct_wv_matrices.
         And simply makes a suggestion to the answer the user entered.
         """
-
 ```
+
+After using the data from app files, we can make our website after we implement it.
+
+```python3
+#Changing the title and favicon of the website
+st.set_page_config(page_title="Falcı Pembe", page_icon="app/favicon.png")
+
+#Integrating background video and some css changes
+st.markdown(play_bg_video(data_url), unsafe_allow_html=True)
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+#Sidebar content
+st.sidebar.header("FALCI PEMBE")
+st.sidebar.write("Neyse bahtın, çıksın falın!")
+#User response to suggest
+user_input = st.sidebar.text_input("Pembe abla, ne söyleyebilirsin hakkımda:",
+                                   help="--Konu Başlıkları--\n\n1 - Hayat\n\n2 - "
+                                        "Aşk\n\n3 - Şarkı\n\n4- Genel\n\n5- Rastgele"
+                                        "\n\nDipnot: Rast gelsin işlerin be*"
+                                        "\n\nİpucu: Merak ettiğiniz konu için konu ismini yazınız.")
+#Output of Maxim suggestion
+st.sidebar.write(falci.recommendation_wv(falci.rp_string(str(user_input).lower()), "app/turkish_stop_words.txt"))
+```
+
+
