@@ -3,7 +3,6 @@
 The idea of the project is to create a simple maxim recommendation engine based on user response.
 
 ## Contents
-
 ```
 1 - Introduction
 2 - Project Architecture
@@ -114,4 +113,9 @@ user_input = st.sidebar.text_input("Pembe abla, ne söyleyebilirsin hakkımda:",
 st.sidebar.write(falci.recommendation_wv(falci.rp_string(str(user_input).lower()), "app/turkish_stop_words.txt"))
 ```
 
+## Results
+When we run the whole program and enter an input, we can get the desired response in approximately .5 seconds, as we mentioned above.
+In the photos below you can see the final version of the website and the result of a few input attempts.
+
+![](https://user-images.githubusercontent.com/54884571/141698154-5e60bcf6-bce5-4de4-95ae-d66ba43bed96.png)
 ![](https://user-images.githubusercontent.com/54884571/141697938-9df41c57-2814-4139-9006-e8d251af64a8.png)
