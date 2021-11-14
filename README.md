@@ -13,9 +13,14 @@ The idea of the project is to create a simple maxim recommendation engine based 
 
 ## Introduction
 ~~~
-The idea of the project is to create a simple maxim recommendation engine based on user response. And can be used in real world as a tool that people can use to find maxims which they forget some words of the maxim.
+The idea of the project is to create a simple maxim recommendation engine based on user response.
+And can be used in real world as a tool that people can use to find maxims which they forget some words of the maxim.
+
 For exemple:
-  Someone wants to use "What's good for the goose is good for the gander" sentence but can't remember which word the sentence ends with like "What's good for the goose is good for the ..."
-  So if he/she enter an answer to maxim recommendation engine "What's good for the goose is good for the", engine returns "What's good for the goose is good for the gander"
+  Someone wants to use "What's good for the goose is good for the gander" sentence
+  but can't remember which word the sentence ends with like "What's good for the goose is good for the ..."
+  So if he/she enter an answer to maxim recommendation engine "What's good for the goose is good for the"
+  engine returns "What's good for the goose is good for the gander"
+  
 That's the general idea.
 ~~~
