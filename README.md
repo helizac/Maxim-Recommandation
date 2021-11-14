@@ -134,8 +134,9 @@ And the result of a few input attempts in "Image-2"
 
 The idea of the task is to make a basic saying proposal motor dependent on client reaction. 
 What's more, can be utilized in genuine world as a device that individuals can use to find sayings which they neglect a few expressions of the saying.
-```
+
 ### References
+```
   [1] https://github.com/aycignl/python_hour/blob/master/life_coach_application.ipynb
   [2] https://github.com/uzay00/KaVe-Egitim/tree/master/VeriBilimi
   [3] https://github.com/akoksal/Turkish-Word2Vec
