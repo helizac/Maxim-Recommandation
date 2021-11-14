@@ -113,8 +113,5 @@ user_input = st.sidebar.text_input("Pembe abla, ne söyleyebilirsin hakkımda:",
 #Output of Maxim suggestion
 st.sidebar.write(falci.recommendation_wv(falci.rp_string(str(user_input).lower()), "app/turkish_stop_words.txt"))
 ```
-![](https://user-images.githubusercontent.com/54884571/141697437-90a39397-2010-44cd-95f6-91e5add8b244.jpeg)
-![](https://user-images.githubusercontent.com/54884571/141697439-800aa966-5db1-4a1d-aa80-4ea0ee094214.jpeg)
-![](https://user-images.githubusercontent.com/54884571/141697440-41f2e522-4224-4622-8f19-1b402da98395.jpeg)
-![](https://user-images.githubusercontent.com/54884571/141697442-e425e653-bdb3-4ba9-bf57-704b8689b8b5.jpeg)
 
+![](https://user-images.githubusercontent.com/54884571/141697858-c42408de-2756-4fc6-8578-88c49e7255e0.png)
