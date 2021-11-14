@@ -118,12 +118,14 @@ When we run the whole program and enter an input, we can get the desired respons
 
 You can see the final version of the website in "Image-1"
 
+![](https://user-images.githubusercontent.com/54884571/141699304-1fd71e74-70f3-49bc-8eac-13c5ff4f855c.png)
 <p align="center">
   Image-1
 </p>
 
 And the result of a few input attempts in "Image-2"
 
+![](https://user-images.githubusercontent.com/54884571/141699311-8f4263ff-8487-4682-af0b-0d3befd32cf3.png)
 <p align="center">
   Image-2
 </p>
