@@ -51,3 +51,46 @@ pip install scikit_learn  # -> https://scikit-learn.org/stable/modules/generated
 pip install streamlit     #For making website
 ```
 
+You can run maxim-recommandation easily by `streamlit run main.py` in the cmd after installing packages.
+
+We start by implementing the libraries.
+```python3
+import streamlit as st
+import pandas as pd
+import base64
+import numpy as np
+from gensim.models import KeyedVectors
+from sklearn.metrics.pairwise import cosine_similarity
+from app.files import hayat, aşk, şarkı, genel, rast_gele, play_bg_video, hide_streamlit_style
+```
+
+Next, we make our definitions inside a class to make our code more readable.
+```python3
+class falci:
+    #Loading previously trained Turkish word vectors
+    word_vectors = KeyedVectors.load_word2vec_format('app/trmodel', binary=True)
+
+    #Allows get rid of characters other than letters, numbers and spaces for a string
+    def rp_string(string: str):
+        myString = ""
+        for k in range(len(string)):
+            if string[k].isalpha() or string[k].isdigit() or string[k].isspace():
+                myString += string[k]
+        return myString
+        
+    def construct_wv_matrices(df, answer):...
+        """
+        
+        construct_wv_matrices(df, answer) converts the sentences words to vector for the given dataframe
+        And simply according to an answer it scans the dataframe and returns the closest thing in the dataframe.
+        
+        """
+
+    def recommendation_wv(answer, stop_words=None):...
+        """
+        
+        
+        
+        """
+
+```
