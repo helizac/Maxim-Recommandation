@@ -32,9 +32,9 @@ The database is separated from the main file to make the code more readable. The
 -app
   video.mp4
   favicon.png
-  files.py #that contains titles, sentences and some html & css
-  trmodel #pre-trained Turkish model
-  turkish_stop_words.txt #Words that have no meaning on their own in Turkish to be excluded from the calculation.
+  files.py ( that contains titles, sentences and some html & css )
+  trmodel ( pre-trained Turkish model )
+  turkish_stop_words.txt ( Words that have no meaning on their own in Turkish to be excluded from the calculation )
 -main.py
 -requirements.txt
 -README.md
@@ -80,17 +80,14 @@ class falci:
         
     def construct_wv_matrices(df, answer):...
         """
-        
         construct_wv_matrices(df, answer) converts the sentences words to vector for the given dataframe
         And simply according to an answer it scans the dataframe and returns the closest thing in the dataframe.
-        
         """
 
     def recommendation_wv(answer, stop_words=None):...
         """
-        
-        
-        
+        recommendation_wv(answer, stop_words=None) pulls suggested answer from dataframe using construct_wv_matrices.
+        And simply makes a suggestion to the answer the user entered.
         """
 
 ```
