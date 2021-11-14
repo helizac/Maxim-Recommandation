@@ -116,16 +116,26 @@ st.sidebar.write(falci.recommendation_wv(falci.rp_string(str(user_input).lower()
 ## Results
 When we run the whole program and enter an input, we can get the desired response in approximately .5 seconds, as we mentioned above.
 
-You can see the final version of the website in "Image-1".
+You can see the final version of the website in "Image-1"
 
 ![Image-1](https://user-images.githubusercontent.com/54884571/141698154-5e60bcf6-bce5-4de4-95ae-d66ba43bed96.png)
 <p align="center">
   Image-1
 </p>
 
-And the result of a few input attempts in "Image-2".
+And the result of a few input attempts in "Image-2"
 
 ![Image-2](https://user-images.githubusercontent.com/54884571/141697938-9df41c57-2814-4139-9006-e8d251af64a8.png)
 <p align="center">
   Image-2
 </p>
+
+## Conclusion
+
+The idea of the task is to make a basic saying proposal motor dependent on client reaction. 
+What's more, can be utilized in genuine world as a device that individuals can use to find sayings which they neglect a few expressions of the saying.
+
+### References
+  [1] https://github.com/aycignl/python_hour/blob/master/life_coach_application.ipynb
+  [2] https://github.com/uzay00/KaVe-Egitim/tree/master/VeriBilimi
+  [3] https://github.com/akoksal/Turkish-Word2Vec
